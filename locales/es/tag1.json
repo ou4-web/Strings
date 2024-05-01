@@ -1,5 +1,11 @@
 {
   "key1": {
     "message": "translated"
+  },
+  "key11": {
+    "message": "abc"
+  },
+  "key111": {
+    "message": "abc"
   }
 }
