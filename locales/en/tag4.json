@@ -14,6 +14,9 @@
   "key1111onemore": {
     "message": "text text text text"
   },
+  "sample_icu": {
+    "message": "sample text"
+  },
   "visible_key1": {
     "message": "text edited edited",
     "description": "descri"
