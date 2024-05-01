@@ -1,0 +1,36 @@
+phrase:
+  access_token: 82952923cc1897b60c4f361d244ca741b22f52c4014b161786c75f2e5634d047
+  project_id: f740d3183b3c25ffe5bc3ad222185076
+  push:
+    sources:
+    - file: locales/<locale_name>/<tag>.json
+      params:
+       file_format: json
+    # NEW
+    - file: config/locales/frontend/fe_common/<locale_name>.yml
+      params:
+        file_format: yml
+        tags: fe_common
+        update_translations: true
+    
+  pull:
+    targets:
+    - file: locales/<locale_name>/<tag>.json
+      params:
+        file_format: json
+        tags: tag1
+        
+    - file: locales/<locale_name>/<tag>.json
+      params:
+        file_format: json
+        tags: tag2
+        
+    - file: locales/<locale_name>/<tag>.json
+      params:
+        file_format: json
+        tags: tag3, tag4, tag5, tag6
+    # NEW
+    - file: config/locales/frontend/fe_common/<locale_name>.yml
+      params:
+        file_format: yml
+        tag: fe_common
