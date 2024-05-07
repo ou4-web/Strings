@@ -8,11 +8,11 @@ phrase:
       params:
        file_format: json
     # NEW
-   - file: config/locales/frontend/fe_common/<locale_name>.yml
+    - file: config/locales/frontend/fe_common/<locale_name>.yml
       params:
-        file_format: yml
-        tags: fe_common
-        update_translations: true
+       file_format: yml
+       tags: fe_common
+       update_translations: true
     - file: newfile/en.json
       params:
         locale_id: en
