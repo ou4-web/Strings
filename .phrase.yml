@@ -1,6 +1,7 @@
 phrase:
   access_token: 82952923cc1897b60c4f361d244ca741b22f52c4014b161786c75f2e5634d047
   project_id: 87e2b4d8865167085e9b0ac66656c3ea
+  file_format: i18next_4
   push:
     sources:
    # - file: locales/<locale_name>/<tag>.json
@@ -12,11 +13,9 @@ phrase:
     #    file_format: yml
     #    tags: fe_common
      #   update_translations: true
-    - file: newfile/en.yml
+    - file: newfile/en.json
       params:
         locale_id: en
-        file_format: yml
-        tags: yml
         update_translations: true
         
     
