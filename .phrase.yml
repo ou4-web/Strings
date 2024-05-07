@@ -8,7 +8,10 @@ phrase:
       params:
         locale_id: en
         update_translations: true
-        
+    - file: newfile/de.json
+      params:
+        locale_id: de
+        update_translations: true     
     
   pull:
     targets:
