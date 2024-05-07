@@ -3,15 +3,15 @@ phrase:
   project_id: 87e2b4d8865167085e9b0ac66656c3ea
   push:
     sources:
-    - file: locales/<locale_name>/<tag>.json
-      params:
-       file_format: json
+   # - file: locales/<locale_name>/<tag>.json
+   #   params:
+   #    file_format: json
     # NEW
-    - file: config/locales/frontend/fe_common/<locale_name>.yml
-      params:
-        file_format: yml
-        tags: fe_common
-        update_translations: true
+   # - file: config/locales/frontend/fe_common/<locale_name>.yml
+   #   params:
+    #    file_format: yml
+    #    tags: fe_common
+     #   update_translations: true
     - file: newfile/en.yml
       params:
         locale_id: en
