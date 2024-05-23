@@ -1,45 +1,131 @@
-phrase:
-  access_token: 82952923cc1897b60c4f361d244ca741b22f52c4014b161786c75f2e5634d047
+# See https://help.phraseapp.com/phraseapp-for-developers/phraseapp-client/configuration
+phraseapp:
   project_id: 87e2b4d8865167085e9b0ac66656c3ea
-  file_format: i18next_4
   push:
+    # The below languages are split out in order to avoid pushing the remainder
+    # of language files (e.g. `en_au`) to PhraseApp.
+    # Be sure to add additional locales as new languages become available.
     sources:
-    - file: locales/<locale_name>/<tag>.json
+    - file: ./config/locales/en.yml
       params:
-       file_format: json
-    # NEW
-    - file: config/locales/frontend/fe_common/<locale_name>.yml
-      params:
-       file_format: yml
-       tags: fe_common
-       update_translations: true
-    - file: newfile/en.json
-      params:
-        locale_id: en
+        file_format: yml
+        tags: master
         update_translations: true
-    - file: newfile/de.json
+    - file: ./config/locales/de.yml
       params:
-        locale_id: de
-        update_translations: true     
-    
+        file_format: yml
+        tags: master
+        update_translations: true
+    - file: ./config/locales/fr.yml
+      params:
+        file_format: yml
+        tags: master
+        update_translations: true
+    - file: ./config/locales/it.yml
+      params:
+        file_format: yml
+        tags: master
+        update_translations: true
+    - file: ./config/locales/en-in.yml
+      params:
+        file_format: yml
+        tags: master
+        update_translations: true
+      # These files are using the "tag" feature of Phraseapp in order to retain
+      # this file structure upon pull, as outlined below.
+    - file: ./config/locales/javascripts/<tag>/<locale_name>.yml
+      params:
+        file_format: yml
+        update_translations: true
+    - file: ./config/locales/frontend/<tag>/<locale_name>.yml
+      params:
+        file_format: yml
+        update_translations: true
+    - file: ./config/locales/views/<tag>/<locale_name>.yml
+      params:
+        file_format: yml
+        update_translations: true
+    - file: ./config/locales/en-au.yml
+      params:
+        file_format: yml
+        tags: master
+        update_translations: true
+    - file: ./config/locales/en-gb.yml
+      params:
+        file_format: yml
+        tags: master
+        update_translations: true
+    - file: ./config/locales/ru-us.yml
+      params:
+        file_format: yml
+        tags: master
+        update_translations: true
+    - file: ./config/locales/pt-us.yml
+      params:
+        file_format: yml
+        tags: master
+        update_translations: true
+    - file: ./config/locales/es-us.yml
+      params:
+        file_format: yml
+        tags: master
+        update_translations: true
+
   pull:
     targets:
-    - file: locales/<locale_name>/<tag>.json
+    - file: ./config/locales/<locale_name>.yml
       params:
-        file_format: json
-        tags: tag1
-        
-    - file: locales/<locale_name>/<tag>.json
+        file_format: yml
+        tag: master
+    - file: ./config/locales/javascripts/album_app/<locale_name>.yml
       params:
-        file_format: json
-        tags: tag2
-        
-    - file: locales/<locale_name>/<tag>.json
+        file_format: yml
+        tag: album_app
+    - file: ./config/locales/javascripts/compositions/<locale_name>.yml
       params:
-        file_format: json
-        tags: tag3, tag4, tag5, tag6
-    # NEW
-    - file: config/locales/frontend/fe_common/<locale_name>.yml
+        file_format: yml
+        tag: compositions
+    - file: ./config/locales/javascripts/facebook_tracks_dashboard/<locale_name>.yml
+      params:
+        file_format: yml
+        tag: facebook_tracks_dashboard
+    - file: ./config/locales/javascripts/my_artists/<locale_name>.yml
+      params:
+        file_format: yml
+        tag: my_artists
+    - file: ./config/locales/javascripts/publishing_splits/<locale_name>.yml
+      params:
+        file_format: yml
+        tag: publishing_splits
+    - file: ./config/locales/javascripts/songs_app/<locale_name>.yml
+      params:
+        file_format: yml
+        tag: songs_app
+    - file: ./config/locales/javascripts/youtube_tracks_dashboard/<locale_name>.yml
+      params:
+        file_format: yml
+        tag: youtube_tracks_dashboard
+    - file: ./config/locales/javascripts/progress_bar/<locale_name>.yml
+      params:
+        file_format: yml
+        tag: progress_bar
+    - file: ./config/locales/javascripts/popup_modal/<locale_name>.yml
+      params:
+        file_format: yml
+        tag: popup_modal
+    - file: ./config/locales/javascripts/lyric_button/<locale_name>.yml
+      params:
+        file_format: yml
+        tag: lyric_button
+    - file: ./config/locales/javascripts/v3/<locale_name>.yml
+      params:
+        file_format: yml
+        tag: v3
+    - file: ./config/locales/frontend/fe_common/<locale_name>.yml
       params:
         file_format: yml
         tag: fe_common
+    - file: ./config/locales/frontend/release_form/<locale_name>.yml
+      params:
+        file_format: yml
+        tag: release_form
