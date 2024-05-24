@@ -6,7 +6,7 @@ phraseapp:
     # of language files (e.g. `en_au`) to PhraseApp.
     # Be sure to add additional locales as new languages become available.
     sources:
-    - file: ./config/locales/en.yml
+    - file: ./config/locales/en.json
       params:
         file_format: yml
         tags: master
