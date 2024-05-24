@@ -8,7 +8,7 @@ phraseapp:
     sources:
     - file: ./config/locales/en.json
       params:
-        file_format: yml
+        file_format: simple_json
         tags: master
         update_translations: true
     - file: ./config/locales/de.yml
