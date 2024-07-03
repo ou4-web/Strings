@@ -2,4 +2,6 @@
 es-GB:
   key_test_fallback: "¡Mira esto! ¡Esta llave tiene una descripción! (Al menos en
     algunos formatos) verified"
-  key_test_fallback2: not empty
+  key_test_fallback2: Esta es una prueba del lenguaje alternativo. Esperamos que Phrase
+    tome la traducción de es-ES - esto es un cambio en es-ES que espero se pueda ver
+    en es-GB en el export.
