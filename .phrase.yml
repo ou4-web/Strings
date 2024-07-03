@@ -70,6 +70,11 @@ phraseapp:
         file_format: yml
         tags: master
         update_translations: true
+    - file: ./config/locales/tag9/en.yml
+      params:
+        file_format: yml
+        tags: tag9
+        update_translations: true
 
   pull:
     targets:
@@ -129,3 +134,9 @@ phraseapp:
       params:
         file_format: yml
         tag: release_form
+    - file: ./config/locales/tag9/<locale_name>.yml
+      params:
+        file_format: yml
+        tags: tag9
+        update_translations: true
+        
