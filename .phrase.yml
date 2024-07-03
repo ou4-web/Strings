@@ -137,11 +137,12 @@ phraseapp:
     - file: ./config/locales/tag9/es-ES.yml
       params:
         file_format: yml
+        locale_id: es-ES
         tags: tag9
-        fallback_locale_id: es-ES
     - file: ./config/locales/tag9/es-GB.yml
       params:
         file_format: yml
+        locale_id: es-GB
         tags: tag9
         include_empty_translations: true
         include_unverified_translations: false
