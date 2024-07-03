@@ -1,2 +1,4 @@
 ---
-es: {}
+es:
+  key_test_fallback:
+  key_test_fallback2:

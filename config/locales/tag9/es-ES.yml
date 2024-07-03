@@ -1,0 +1,5 @@
+---
+es-ES:
+  key_test_fallback: "¡Mira esto! ¡Esta llave tiene una descripción! (Al menos en
+    algunos formatos) verified"
+  key_test_fallback2: not empty
