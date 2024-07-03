@@ -134,9 +134,15 @@ phraseapp:
       params:
         file_format: yml
         tag: release_form
-    - file: ./config/locales/tag9/<locale_name>.yml
+    - file: ./config/locales/tag9/es-ES.yml
+      params:
+        file_format: yml
+        tags: tag9
+        fallback_locale_id: es-ES
+    - file: ./config/locales/tag9/es-GB.yml
       params:
         file_format: yml
         tags: tag9
         include_empty_translations: true
         include_unverified_translations: false
+        fallback_locale_id: es-GB
