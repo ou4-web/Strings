@@ -1,6 +1,8 @@
 # See https://help.phraseapp.com/phraseapp-for-developers/phraseapp-client/configuration
 phraseapp:
+  #project_id: 87e2b4d8865167085e9b0ac66656c3ea
   project_id: 87e2b4d8865167085e9b0ac66656c3ea
+  file_format: strings_json
   push:
     # The below languages are split out in order to avoid pushing the remainder
     # of language files (e.g. `en_au`) to PhraseApp.
@@ -78,6 +80,15 @@ phraseapp:
 
   pull:
     targets:
+    - file: sample34/<tag>.json
+      params:
+        file_format: yml
+        tag: a
+        locale_id: en
+          locale_ids:
+            - cs
+            - de
+        
     - file: ./config/locales/<locale_name>.yml
       params:
         file_format: yml
