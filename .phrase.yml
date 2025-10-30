@@ -24,7 +24,7 @@ phrase:
     - file: locales/sample34/<tag>.json
       params:
         file_format: strings_json
-        tags: a
+        tags: tag1
         locale_id: en
         locale_ids:
             - de
