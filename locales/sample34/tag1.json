@@ -1,0 +1,80 @@
+{
+  "key": {
+    "key": {
+      "plural": false,
+      "max_characters_allowed": 0,
+      "description": null
+    },
+    "translations": [
+      {
+        "locale": "en",
+        "locale_code": "en",
+        "state": "translated",
+        "content": "true"
+      }
+    ]
+  },
+  "key1": {
+    "key": {
+      "plural": false,
+      "max_characters_allowed": 0,
+      "description": null
+    },
+    "translations": [
+      {
+        "locale": "en",
+        "locale_code": "en",
+        "state": "translated",
+        "content": "also text color"
+      }
+    ]
+  },
+  "key1_updated": {
+    "key": {
+      "plural": false,
+      "max_characters_allowed": 0,
+      "description": null
+    },
+    "translations": [
+      {
+        "locale": "en",
+        "locale_code": "en",
+        "state": "translated",
+        "content": "one1_This translation is not yet verified and waits for it. (In some formats we also export this status)"
+      },
+      {
+        "locale": "de",
+        "locale_code": "de",
+        "state": "unverified",
+        "content": "Diese Übersetzung ist noch nicht überprüft und wartet darauf. (In einigen Formaten exportieren wir diesen Status auch)"
+      }
+    ]
+  },
+  "newkey1": {
+    "key": {
+      "plural": false,
+      "max_characters_allowed": 0,
+      "description": null
+    },
+    "translations": [
+      {
+        "locale": "en",
+        "locale_code": "en",
+        "state": "translated",
+        "content": "Text to be translated."
+      },
+      {
+        "locale": "cs",
+        "locale_code": "cs",
+        "state": "unverified",
+        "content": "Text na překlad."
+      },
+      {
+        "locale": "de",
+        "locale_code": "de",
+        "state": "translated",
+        "content": "t$e$x$t$_1_u$"
+      }
+    ]
+  }
+}
