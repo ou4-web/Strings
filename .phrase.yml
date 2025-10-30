@@ -86,7 +86,6 @@ phraseapp:
         tag: a
         locale_id: en
           locale_ids:
-            - cs
             - de
         
     - file: ./config/locales/<locale_name>.yml
