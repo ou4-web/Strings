@@ -27,8 +27,9 @@ phrase:
         tags: tag1
         locale_id: en
         locale_ids:
+            - da
+            - cs-CZ
             - de
-            - cs
         
   #  - file: locales/<locale_name>/<tag>.json
   #    params:
