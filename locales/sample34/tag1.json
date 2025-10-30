@@ -26,6 +26,24 @@
         "locale_code": "en",
         "state": "translated",
         "content": "also text color"
+      },
+      {
+        "locale": "cs-CZ",
+        "locale_code": "cs-CZ",
+        "state": "translated",
+        "content": "také barva textu"
+      },
+      {
+        "locale": "da",
+        "locale_code": "da",
+        "state": "translated",
+        "content": "Også tekst farve"
+      },
+      {
+        "locale": "de",
+        "locale_code": "de",
+        "state": "translated",
+        "content": "auch Textfarbe"
       }
     ]
   },
@@ -62,12 +80,6 @@
         "locale_code": "en",
         "state": "translated",
         "content": "Text to be translated."
-      },
-      {
-        "locale": "cs",
-        "locale_code": "cs",
-        "state": "unverified",
-        "content": "Text na překlad."
       },
       {
         "locale": "de",
