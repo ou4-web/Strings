@@ -21,11 +21,6 @@ phrase:
     
   pull:
     targets:
-  #  - file: locales/<tag>_<locale_name>.json
-  #    params:
-  #      file_format: strings_json
-  #      tags: tag1
-        
     - file: locales/sample34/<tag>.json
       params:
         file_format: strings_json
