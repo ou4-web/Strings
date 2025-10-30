@@ -1,7 +1,7 @@
 # See https://help.phraseapp.com/phraseapp-for-developers/phraseapp-client/configuration
 phraseapp:
   #project_id: 87e2b4d8865167085e9b0ac66656c3ea
-  project_id: f740d3183b3c25ffe5bc3ad222185076
+  project_id: 87e2b4d8865167085e9b0ac66656c3ea
   file_format: strings_json
   push:
     # The below languages are split out in order to avoid pushing the remainder
