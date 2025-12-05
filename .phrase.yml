@@ -1,49 +1,24 @@
 phrase:
-  access_token: b82a37c5ecc0441fa4d8aa920908f6e37ef42fa4b4bc577ae5e4d93794ff4aef
-  project_id: 84a8e13ac605c1cb19dfa377a7fc97ad
-  file_format: strings_json
+  project_id: c4c9dfcf54f789dc33a77e8eff83f631
+  file_format: simple_json
+
   push:
     sources:
-    - file: locales/<locale_name>/<tag>.json
+    - file: ./locales/en.json
       params:
-       file_format: json
-       update_translations: true
-    #   tags: very_new239847238947294823, toast-device-hub
-        # NEW
-  #  - file: config/locales/frontend/fe_common/<locale_name>.yml
-    #  params:
-     #   file_format: yml
-     #   tags: deployment_12_3_2015
-      #  update_translations: true
-      #  tags: tag1, very_new_tag_created
-      
-      
-    
+        locale_id: 61c348f0892746681383db816026c67c
+        update_translations: true
+    - file: ./locales/fr.json
+      params:
+        locale_id: 10eb1c3b18acbd13438f61fa97d6a03c
+        update_translations: true
   pull:
     targets:
-    - file: locales/sample34/<tag>.json
+    - file: ./locales/en.json
       params:
-        file_format: strings_json
-        tags: tag1
-        locale_id: en
-        locale_ids:
-            - da
-            - cs-CZ
-            - de
-        
-  #  - file: locales/<locale_name>/<tag>.json
-  #    params:
-  #      file_format: json
-  #      tags: tag2
-        
-
-#
-#    - file: locales/<locale_name>/<tag>.json
-#      params:
-#        file_format: json
- #       tags: tag3, tag4, tag5, tag6
-    # NEW
-  #  - file: config/locales/frontend/fe_common/basename_language.<locale_name>.yml
-    #  params:
-   #     file_format: yml
-     #   tag: doesntexist
+        locale_id: 61c348f0892746681383db816026c67c
+        include_unverified_translations: true
+    - file: ./locales/fr.json
+      params:
+        locale_id: 10eb1c3b18acbd13438f61fa97d6a03c
+        include_unverified_translations: true
