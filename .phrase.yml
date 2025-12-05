@@ -1,4 +1,5 @@
 phrase:
+  access_token: b82a37c5ecc0441fa4d8aa920908f6e37ef42fa4b4bc577ae5e4d93794ff4aef
   project_id: 84a8e13ac605c1cb19dfa377a7fc97ad
   file_format: strings_json
   push:
