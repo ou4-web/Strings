@@ -3,6 +3,7 @@ phrase:
   file_format: simple_json
 
   push:
+    delete_unmentioned_keys: tr
     sources:
     - file: ./locales/en.json
       delete_unmentioned_keys: true
