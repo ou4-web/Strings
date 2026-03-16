@@ -1,0 +1,114 @@
+{
+  "#171153 - space missing for target languages": "S'il vous plaît contactez",
+  "#175736 length example": "Exemple de phrase.",
+  "#186867_allowing only Include custom metadata": "texte",
+  "#200671: MT placeholder": "Retour : {date}",
+  "chargingPlan_pricePerCharge_value": "{{value}} / session de recharge",
+  "chargingPlan_priceSurcharge_caption": "Surtaxe",
+  "chargingPlan_priceSurcharge_description": "à d’autres bornes de recharge",
+  "chargingPlan_surchargeDisclaimer_text": "Les prix sur les bornes de recharge non exploitées par des membres du réseau IONITY sont facturés par Volkswagen Group Charging GmbH (Elli) au nom de l'opérateur de la borne.\\n\\nLes prix sont facturés individuellement, en fonction de la consommation en kWh, de la durée de la session ou de l'heure de la journée, ou de toute combinaison de ces données. Certains opérateurs peuvent appliquer des frais fixes.\\n\\nAvant de commencer la session de recharge, vous pouvez consulter les prix de recharge pratiqués par un opérateur sur l'application IONITY. Lorsque vous effectuez une session de recharge à l'étranger, il se peut que des frais de change soient appliqués par la suite.",
+  "chargingServices_teaser_button": "Veuillez choisir un contrat",
+  "chargingServices_teaser_copy": "Avantages pour la recharge :\\n\\nUne carte de recharge que vous pouvez utiliser partout en Europe\\nLes prix IONITY spéciaux pour une sélection de modèles de véhicules\\nUn contrôle total des coûts",
+  "chargingServices_teaser_error_button": "Actualiser",
+  "chargingServices_teaser_headline": "Rechargez partout",
+  "contains 3 tags": "trois balises",
+  "d150b5ad9955a56f84b4897a7f955d8a4ddbc810": "{VAR_SELECT, select, true {Show Less } other {Show More }}",
+  "entities": "&lt;inconnu&gt;",
+  "Insert Element": "Insérer un élément",
+  "Insert Element2": "Insérer l'élément 2",
+  "key.key.max_characters_allowed": "0",
+  "key.key.plural": "false",
+  "key.translations": [
+    {
+      "locale": "en",
+      "locale_code": "en",
+      "state": "translated",
+      "content": "true"
+    }
+  ],
+  "key1.key.max_characters_allowed": "0",
+  "key1.key.plural": "false",
+  "key1.translations": [
+    {
+      "locale": "en",
+      "locale_code": "en",
+      "state": "translated",
+      "content": "also text color"
+    },
+    {
+      "locale": "cs-CZ",
+      "locale_code": "cs-CZ",
+      "state": "translated",
+      "content": "také barva textu"
+    },
+    {
+      "locale": "da",
+      "locale_code": "da",
+      "state": "translated",
+      "content": "Også tekst farve"
+    },
+    {
+      "locale": "de",
+      "locale_code": "de",
+      "state": "translated",
+      "content": "auch Textfarbe"
+    }
+  ],
+  "key11": "Texte à traduire. Encore une phrase. Et un de plus.",
+  "key1_updated": "Cette traduction n'est pas encore vérifiée et l'attend. (Dans certains formats, nous exportons également ce statut)",
+  "key1_updated.key.max_characters_allowed": "0",
+  "key1_updated.key.plural": "false",
+  "key1_updated.translations": [
+    {
+      "locale": "en",
+      "locale_code": "en",
+      "state": "translated",
+      "content": "one1_This translation is not yet verified and waits for it. (In some formats we also export this status)"
+    },
+    {
+      "locale": "de",
+      "locale_code": "de",
+      "state": "unverified",
+      "content": "Diese Übersetzung ist noch nicht überprüft und wartet darauf. (In einigen Formaten exportieren wir diesen Status auch)"
+    }
+  ],
+  "key_173356": "Gérez votre prochaine Mercedes-Benz",
+  "key_192188": "Texte",
+  "key_203232": "texte",
+  "key_293420349824": "Texte",
+  "key_date_i": "date_clé_i",
+  "Key_jobsync_reimport": "texte",
+  "key_long_one": "MAXX-1660-fe-enable-vat-toggle@2023-10-30T12:15:14.186Z",
+  "newkey1.key.max_characters_allowed": "0",
+  "newkey1.key.plural": "false",
+  "newkey1.translations": [
+    {
+      "locale": "en",
+      "locale_code": "en",
+      "state": "translated",
+      "content": "Text to be translated."
+    },
+    {
+      "locale": "de",
+      "locale_code": "de",
+      "state": "translated",
+      "content": "t$e$x$t$_1_u$"
+    }
+  ],
+  "new_key_added_234u203492": "traduction",
+  "paymentDetails_errorScreen_paymentOptionRefused_copy_text": "Une erreur est survenue lors de l’enregistrement de votre option de paiement. Veuillez contacter votre fournisseur de carte de paiement.",
+  "paymentDetails_errorScreen_paymentOptionRefused_headline": "Paiement refusé",
+  "reviewOrder_followUpPlan_disclaimer": "Valide à partir du {{value}}",
+  "sample1234": "ÉCHANTILLON",
+  "seo.title.homepage.default": "Bus ou covoiturage ? Votre choix de trajets à petits prix.",
+  "simple_key": "Juste une simple clé avec un message simple.",
+  "ticket_#177236_VERY_LONG_ONE_VERY_LONG_ONE_SDKFJSLDFKJSDFLKSJDFLSKDFJSLFDK_VERY_LONG_ONE": {
+    "one": "exemple un",
+    "other": "autres échantillons",
+    "zero": "échantillon zéro"
+  },
+  "vouchers_coupon_expirationDateDays_label": {
+    "one": "Expire dans 1 jour!",
+    "other": "Expire dans {{count}} Jours!"
+  }
+}
