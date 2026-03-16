@@ -5,6 +5,7 @@ phrase:
   push:
     sources:
     - file: ./locales/en.json
+      delete_unmentioned_keys: true
       params:
         locale_id: 61c348f0892746681383db816026c67c
         update_translations: true
