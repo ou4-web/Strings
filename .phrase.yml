@@ -8,10 +8,13 @@ phrase:
       params:
         locale_id: 61c348f0892746681383db816026c67c
         update_translations: true
+        delete_unmentioned_keys: true
+        
     - file: ./locales/fr.json
       params:
         locale_id: 10eb1c3b18acbd13438f61fa97d6a03c
         update_translations: true
+        delete_unmentioned_keys: true
   pull:
     targets:
     - file: ./locales/en.json
@@ -19,10 +22,9 @@ phrase:
         locale_id: 61c348f0892746681383db816026c67c
         include_unverified_translations: true
         tags: github
-        delete_unmentioned_keys: true
+
     - file: ./locales/fr.json
       params:
         locale_id: 10eb1c3b18acbd13438f61fa97d6a03c
         include_unverified_translations: true
         tags: github
-        delete_unmentioned_keys: true
