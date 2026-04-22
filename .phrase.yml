@@ -1,8 +1,8 @@
 phrase:
   project_id: 84a8e13ac605c1cb19dfa377a7fc97ad
-  locale_mapping:
-    en-GB-x-lt: en-GB
-    en-GB-x-uk: en-GB
+#  locale_mapping:
+#    en-GB-x-lt: en-GB
+#    en-GB-x-uk: en-GB
   push:
     sources:
       - file: ./src/lib/locales/translations/lt/<locale_name>.json
