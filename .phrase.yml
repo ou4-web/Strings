@@ -18,69 +18,7 @@ phrase:
         params:
           file_format: nested_json
           locale_id: fe783d05bc60c1e650791848d5fcbfbb
-      - file: ./src/lib/locales/translations/lt/<locale_name>.json
-        params:
-          file_format: nested_json
-          locale_id: 6bed5a1088b3bfc8f0b6854f2ae8c03d
-      - file: ./src/lib/locales/translations/lt/<locale_name>.json
-        params:
-          file_format: nested_json
-          locale_id: 23e4a6a3d705d76aa9687dede909f416
-      - file: ./src/lib/locales/translations/lt/<locale_name>.json
-        params:
-          file_format: nested_json
-          locale_id: 3f774dbe38473694d35ca48b45619a05
-      - file: ./src/lib/locales/translations/lt/<locale_name>.json
-        params:
-          file_format: nested_json
-          locale_id: 60286b45c6a102fdf31ede6195805ee8
-      - file: ./src/lib/locales/translations/lt/<locale_name>.json
-        params:
-          file_format: nested_json
-          locale_id: 7ef3da6669283fd11182e6af4caf9576
-      - file: ./src/lib/locales/translations/lt/<locale_name>.json
-        params:
-          file_format: nested_json
-          locale_id: d31708d6930e70dcc0b097b9e57cdebb
-      - file: ./src/lib/locales/translations/lt/<locale_name>.json
-        params:
-          file_format: nested_json
-          locale_id: c6c8feaf6ac597aba422671a77da35e8
-      - file: ./src/lib/locales/translations/lt/<locale_name>.json
-        params:
-          file_format: nested_json
-          locale_id: 08a5f36a41c8fa30c59a5ee66add3da3
-      - file: ./src/lib/locales/translations/lt/<locale_name>.json
-        params:
-          file_format: nested_json
-          locale_id: 8b327b0e50f63c01c50c5b6f3c42c063
-      - file: ./src/lib/locales/translations/lt/<locale_name>.json
-        params:
-          file_format: nested_json
-          locale_id: 38ac8cf128fd4c43dbe734101a5c0785
-      - file: ./src/lib/locales/translations/lt/<locale_name>.json
-        params:
-          file_format: nested_json
-          locale_id: eb9dd2798d46c078175d2bcd48249e16
-      - file: ./src/lib/locales/translations/lt/<locale_name>.json
-        params:
-          file_format: nested_json
-          locale_id: 76b86965a68e8221f9ce79a8e95c20a0
-      - file: ./src/lib/locales/translations/lt/<locale_name>.json
-        params:
-          file_format: nested_json
-          locale_id: 2af8160ecd98428392607d867ab78554
-      - file: ./src/lib/locales/translations/lt/<locale_name>.json
-        params:
-          file_format: nested_json
-          locale_id: e94bbe1f9cbf5a4e601596fd47b4b189
-      - file: ./src/lib/locales/translations/uk/<locale_name>.json
-        params:
-          file_format: nested_json
-          locale_id: 2797ce18801fbeb40c417451f13b7991
 
-  
-  
   
   
   
