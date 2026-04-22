@@ -5,9 +5,9 @@ phrase:
     en-GB-x-uk: en-GB
   push:
     sources:
-      - file: ./src/lib/locales/translations/lt/<locale_name>.json
-        params:
-          file_format: nested_json
+ #     - file: ./src/lib/locales/translations/lt/<locale_name>.json
+  #      params:
+   #       file_format: nested_json
       - file: ./src/lib/locales/translations/uk/en-GB.json
         params:
           file_format: nested_json
