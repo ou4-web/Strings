@@ -1,5 +1,4 @@
 phrase:
-  access_token: de64d174e8df9bd1ccd71ed5e642ae99b4ba2292600d94754096b704a13f1129
   project_id: 84a8e13ac605c1cb19dfa377a7fc97ad
   locale_mapping:
     en-GB-x-lt: en-GB
@@ -12,7 +11,7 @@ phrase:
  #     - file: ./src/lib/locales/translations/uk/en-GB.json
  #       params:
  #         file_format: nested_json
- #         locale_id: adb46aaba22fcfcca486b7aeeb771b2c
+ #         locale_id: 8f16e86f1ff8833e783d6e9bf909070e
   pull:
     targets:
       - file: ./src/lib/locales/translations/lt/<locale_name>.json
