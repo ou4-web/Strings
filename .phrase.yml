@@ -1,0 +1,183 @@
+phrase:
+  access_token: de64d174e8df9bd1ccd71ed5e642ae99b4ba2292600d94754096b704a13f1129
+  project_id: 2bf120ddf3757a892b8d95e41e44ebff
+  locale_mapping:
+    en-GB-x-lt: en-GB
+    en-GB-x-uk: en-GB
+  push:
+    sources:
+      - file: ./src/lib/locales/translations/lt/<locale_name>.json
+        params:
+          file_format: nested_json
+ #     - file: ./src/lib/locales/translations/uk/en-GB.json
+ #       params:
+ #         file_format: nested_json
+ #         locale_id: adb46aaba22fcfcca486b7aeeb771b2c
+  pull:
+    targets:
+      - file: ./src/lib/locales/translations/lt/<locale_name>.json
+        params:
+          file_format: nested_json
+          locale_id: fe783d05bc60c1e650791848d5fcbfbb
+      - file: ./src/lib/locales/translations/lt/<locale_name>.json
+        params:
+          file_format: nested_json
+          locale_id: 6bed5a1088b3bfc8f0b6854f2ae8c03d
+      - file: ./src/lib/locales/translations/lt/<locale_name>.json
+        params:
+          file_format: nested_json
+          locale_id: 23e4a6a3d705d76aa9687dede909f416
+      - file: ./src/lib/locales/translations/lt/<locale_name>.json
+        params:
+          file_format: nested_json
+          locale_id: 3f774dbe38473694d35ca48b45619a05
+      - file: ./src/lib/locales/translations/lt/<locale_name>.json
+        params:
+          file_format: nested_json
+          locale_id: 60286b45c6a102fdf31ede6195805ee8
+      - file: ./src/lib/locales/translations/lt/<locale_name>.json
+        params:
+          file_format: nested_json
+          locale_id: 7ef3da6669283fd11182e6af4caf9576
+      - file: ./src/lib/locales/translations/lt/<locale_name>.json
+        params:
+          file_format: nested_json
+          locale_id: d31708d6930e70dcc0b097b9e57cdebb
+      - file: ./src/lib/locales/translations/lt/<locale_name>.json
+        params:
+          file_format: nested_json
+          locale_id: c6c8feaf6ac597aba422671a77da35e8
+      - file: ./src/lib/locales/translations/lt/<locale_name>.json
+        params:
+          file_format: nested_json
+          locale_id: 08a5f36a41c8fa30c59a5ee66add3da3
+      - file: ./src/lib/locales/translations/lt/<locale_name>.json
+        params:
+          file_format: nested_json
+          locale_id: 8b327b0e50f63c01c50c5b6f3c42c063
+      - file: ./src/lib/locales/translations/lt/<locale_name>.json
+        params:
+          file_format: nested_json
+          locale_id: 38ac8cf128fd4c43dbe734101a5c0785
+      - file: ./src/lib/locales/translations/lt/<locale_name>.json
+        params:
+          file_format: nested_json
+          locale_id: eb9dd2798d46c078175d2bcd48249e16
+      - file: ./src/lib/locales/translations/lt/<locale_name>.json
+        params:
+          file_format: nested_json
+          locale_id: 76b86965a68e8221f9ce79a8e95c20a0
+      - file: ./src/lib/locales/translations/lt/<locale_name>.json
+        params:
+          file_format: nested_json
+          locale_id: 2af8160ecd98428392607d867ab78554
+      - file: ./src/lib/locales/translations/lt/<locale_name>.json
+        params:
+          file_format: nested_json
+          locale_id: e94bbe1f9cbf5a4e601596fd47b4b189
+      - file: ./src/lib/locales/translations/uk/<locale_name>.json
+        params:
+          file_format: nested_json
+          locale_id: 2797ce18801fbeb40c417451f13b7991
+
+  
+  
+  
+  
+  
+  
+#  push:
+  #  sources:
+  #    - file: config/locales/de.yml
+  #      params:
+   #       locale_id: de
+    #      file_format: yml
+    #      update_translations: true
+  #  sources:
+   #   - file: config/locales/de.yml
+   #     params:
+   #       locale_id: de
+   #       file_format: yml
+   #       update_translations: true
+
+   #   - file: config/locales/en.yml
+    #    params:
+   #       locale_id: en
+   #       file_format: yml
+   #       autotranslate: true
+   #       update_translations: true
+
+ # pull:
+  #  targets:
+   #   - file: config/locales/fr-FR.xml
+   #     params:
+    #      file_format: xml
+    #      locale_id: fr-FR
+     #     include_empty_translations: true
+
+
+#phrase:
+ # access_token: e96abfcdf83071824164a4ad19efcdec9c5d3f804ec329746144727701a8afeb
+  #project_id: 44c1c972f40d26139d9639df79bcc7e1
+#  push:
+ #   sources:
+ #     - file: config/locales/de.yml
+  #      params:
+   #       locale_id: 2ad95cf7f6056d4e2c7016bd974f7f0f
+   #       file_format: yml
+       #   autotranslate: true
+    #  - file: config/locales/en.yml
+    #    params:
+     #     locale_id: 11a9b526c422bced000c34f43325bfeb
+      #    file_format: yml
+     #     autotranslate: true
+#  file_format: strings_json
+#  push:
+ #   sources:
+#    - file: locales/<locale_name>/<tag>.json
+ #     params:
+ #      file_format: json
+#       update_translations: true
+ #      tags: very_new239847238947294823, toast-device-hub
+        # NEW
+  #  - file: config/locales/frontend/fe_common/<locale_name>.yml
+    #  params:
+     #   file_format: yml
+     #   tags: deployment_12_3_2015
+      #  update_translations: true
+      #  tags: tag1, very_new_tag_created
+      
+      
+    
+ # pull:
+ #   targets:
+  #  - file: locales/<tag>_<locale_name>.json
+  #    params:
+  #      file_format: strings_json
+  #      tags: tag1
+        
+ #   - file: locales/sample34/<tag>.json
+#      params:
+#        file_format: strings_json
+ #       tags: a
+ #       locale_id: en
+ #       locale_ids:
+  #          - en
+  #          - cs
+        
+  #  - file: locales/<locale_name>/<tag>.json
+  #    params:
+  #      file_format: json
+  #      tags: tag2
+        
+
+#
+#    - file: locales/<locale_name>/<tag>.json
+#      params:
+#        file_format: json
+ #       tags: tag3, tag4, tag5, tag6
+    # NEW
+  #  - file: config/locales/frontend/fe_common/basename_language.<locale_name>.yml
+    #  params:
+   #     file_format: yml
+     #   tag: doesntexist
