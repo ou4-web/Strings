@@ -9,8 +9,8 @@ phrase:
 ##    - file: ./<locale_code>/known_issues.html
 #      params:
  #       tags: a
-
-
+#
+#
 #phrase:
  # project_id: 84a8e13ac605c1cb19dfa377a7fc97ad
 #  pull:
@@ -21,12 +21,7 @@ phrase:
  #       file_format: html
  #       format_options:
  #         document_id: 6b333c5a7c15517d60d3229116cb19d1
-
-
-
-
-
-  
+#  
 #  locale_mapping:
 #    en-GB: en-GB-x-lt
 #    en-GB: en-GB-x-uk 
@@ -45,11 +40,8 @@ phrase:
 #        params:
 #         file_format: nested_json
 #          locale_id: fe783d05bc60c1e650791848d5fcbfbb
-
-  
-  
-  
-  
+#
+#
 #  push:
   #  sources:
   #    - file: config/locales/de.yml
@@ -63,7 +55,7 @@ phrase:
    #       locale_id: de
    #       file_format: yml
    #       update_translations: true
-
+#
    #   - file: config/locales/en.yml
     #    params:
    #       locale_id: en
@@ -119,7 +111,7 @@ phrase:
   #    params:
   #      file_format: strings_json
   #      tags: tag1
-        
+   #     
  #   - file: locales/sample34/<tag>.json
 #      params:
 #        file_format: strings_json
@@ -128,13 +120,13 @@ phrase:
  #       locale_ids:
   #          - en
   #          - cs
-        
+#        
   #  - file: locales/<locale_name>/<tag>.json
   #    params:
   #      file_format: json
-  #      tags: tag2
-        
-
+ # #      tags: tag2
+#        
+#
 #
 #    - file: locales/<locale_name>/<tag>.json
 #      params:
