@@ -4,7 +4,7 @@ phrase:
   # Export
   pull:
     targets:
-    - file: ./<locale_code>/known_issues.html
+    - file: ./en/known_issues.html
       params:
         tags: github
         file_format: html
