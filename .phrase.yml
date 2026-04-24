@@ -2,9 +2,13 @@ phrase:
   project_id: 84a8e13ac605c1cb19dfa377a7fc97ad
   pull:
     targets:
-    - file: ./<locale_code>/known_issues.html
+      - file: file.xml
       params:
-        tags: a
+        format_options:
+          convert_placeholder: true
+##    - file: ./<locale_code>/known_issues.html
+#      params:
+ #       tags: a
 
 
 #phrase:
