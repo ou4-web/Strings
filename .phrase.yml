@@ -1,10 +1,20 @@
 phrase:
   project_id: 84a8e13ac605c1cb19dfa377a7fc97ad
   pull:
+    targets:
     - file: ./<locale_code>/known_issues.html
       params:
-        tags: known_issues
-        file_format: html
+        tags: a
+
+
+#phrase:
+ # project_id: 84a8e13ac605c1cb19dfa377a7fc97ad
+#  pull:
+#    targets:
+#    - file: ./<locale_code>/known_issues.html
+ #     params:
+ #       tags: known_issues
+ #       file_format: html
  #       format_options:
  #         document_id: 6b333c5a7c15517d60d3229116cb19d1
 
