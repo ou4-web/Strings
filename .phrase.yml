@@ -5,10 +5,6 @@ phrase:
   # Export
   pull:
     targets:
-    - file: ./<locale_code>/auth.json
-      params:
-        tags: github
-        file_format: nested_json
     - file: ./<locale_code>/known_issues.html
       params:
         tags: github
