@@ -1,23 +1,37 @@
 phrase:
   project_id: 84a8e13ac605c1cb19dfa377a7fc97ad
-  locale_mapping:
-    en-GB: en-GB-x-lt
-    en-GB: en-GB-x-uk 
-  push:
-    sources:
-      - file: ./src/lib/locales/translations/lt/<locale_name>.json
-        params:
-          file_format: nested_json
-      - file: ./src/lib/locales/translations/uk/en-GB.json
-        params:
-          file_format: nested_json
-          locale_id: 8f16e86f1ff8833e783d6e9bf909070e
+  file_format: nested_json
   pull:
-    targets:
-      - file: ./src/lib/locales/translations/lt/<locale_name>.json
-        params:
-          file_format: nested_json
-          locale_id: fe783d05bc60c1e650791848d5fcbfbb
+    - file: ./<locale_code>/known_issues.html
+      params:
+        tags: known_issues
+        file_format: html
+        format_options:
+          document_id: 6b333c5a7c15517d60d3229116cb19d1
+
+
+
+
+
+  
+#  locale_mapping:
+#    en-GB: en-GB-x-lt
+#    en-GB: en-GB-x-uk 
+#  push:
+#    sources:
+#      - file: ./src/lib/locales/translations/lt/<locale_name>.json
+#        params:
+#          file_format: nested_json
+#      - file: ./src/lib/locales/translations/uk/en-GB.json
+#        params:
+#          file_format: nested_json
+#          locale_id: 8f16e86f1ff8833e783d6e9bf909070e
+#  pull:
+#    targets:
+#      - file: ./src/lib/locales/translations/lt/<locale_name>.json
+#        params:
+#         file_format: nested_json
+#          locale_id: fe783d05bc60c1e650791848d5fcbfbb
 
   
   
