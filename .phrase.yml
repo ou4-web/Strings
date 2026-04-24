@@ -11,6 +11,7 @@ phrase:
  #       tags: a
 #
 #
+  push:
     targets:
       - file: ./src/lib/locales/translations/lt/<locale_name>.json
         params:
