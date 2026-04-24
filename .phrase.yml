@@ -16,7 +16,7 @@ phrase:
       - file: ./config/locales/<locale_name>.json
         params:
          file_format: nested_json
-          locale_id: fe783d05bc60c1e650791848d5fcbfbb
+          locale_id: 61c348f0892746681383db816026c67c
 
 
 #phrase:
