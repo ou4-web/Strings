@@ -7,11 +7,11 @@ phrase:
     targets:
     - file: ./<locale_code>/auth.json
       params:
-        tags: a
+        tags: github
         file_format: nested_json
     - file: ./<locale_code>/known_issues.html
       params:
-        tags: known_issues
+        tags: github
         file_format: html
         format_options:
           document_id: 6b333c5a7c15517d60d3229116cb19d1
